@@ -75,6 +75,9 @@ The Laravel framework is open-source software licensed under the [MIT license](h
 
 - Renomear o arquivo .env.example para .env e configura-lo com os dados do banco de  dados local.
 - Baixar as dependências do projeto usando composer update
-- Utilizar o comando phpartisan migrate:fresh --seed
-para baixar as tabelas do banco de dados
-- Rodar o comando php artisan serve, copiar o link e colar no navegador. 
+- Rodar o comando php artisan key:generate para gerar uma chave para a aplicação.
+- Utilizar o comando php artisan migrate --seed para gerar as tabelas no banco de dados
+- Rodar o comando php artisan serve, copiar o link e colar no navegador para acessar.
+- Usuário padrão:
+    Login: admin
+    Senha: admin
